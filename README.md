@@ -4,6 +4,6 @@ EDatum is a unique opportunity for B.Tech students to showcase their skills and 
 
 
 Data Science Techical Team:- 
-K.Phaneendra Saketh (Lead)
+K.Phaneendra Saketh (Lead), /n \n
 B.Lokesh Kumar
 Ch.W.Naveen
