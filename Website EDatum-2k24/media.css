@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1440px) {
+    body {
+      background-color: rgb(144, 174, 238);
+    }
+    .AboutColum p{
+        padding-right: 6%;
+    }
+   
+}
+
+
+/* Large Laptops */
+
+@media only screen and (max-width: 1440px) {
+    body {
+      background-color: lightgreen;
+    }
+    .AboutColum p{
+        padding-right: 6%;
+    }
+    .AboutColum{
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutColum p{
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+   
+}
+
+
+/* Medium Laptops */
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: red;
+    }
+
+    #AboutText{
+        font-size: 100px;
+    }
+    .AboutColum img{
+        width: 450px;
+        height: 280px;
+    }
+    .AboutColum p{
+        font-size: 20px;
+    }
+    .AboutColum img{
+       
+        box-shadow: 35px 35px 0px rgba(148, 158, 251, 0.65);
+    }
+}
+
+
+/* Tabs */
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: orange;
+    }
+    .AboutColum img{
+        width: 300px;
+        height: 180px;
+    }
+    .AboutColum p{
+        font-size: 15px;
+    }
+    .AboutColum img{
+       
+        box-shadow: 25px 25px 0px rgba(148, 158, 251, 0.65);
+    }
+}
