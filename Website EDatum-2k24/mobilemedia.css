@@ -1,0 +1,41 @@
+@media only screen and (max-width: 425px) {
+
+    #AboutText{
+        font-size: 50px;
+    }
+    .AboutColum p{
+        font-size: 13px;
+        margin-bottom: 15%;
+    }
+  .Registration a{
+    font-size: 20px;
+  }
+    .AboutColum img{
+        width: 220px;
+        height: 120px;
+        margin-bottom: 15%;
+    }
+    .Registration .button{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .AboutColum p{
+        font-size: 12px;
+        margin-top: 1%;
+        margin-bottom: 10%;
+    }
+    .AboutColum img{
+        width: 250px;
+        height: 150px;
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .AboutColum p{
+        font-size: 11px;
+        
+    }
+}
