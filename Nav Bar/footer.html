@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="footer.css">
+</head>
+<body>
+	<footer>
+		<div class="edata">
+			<h1>EDATUM</h1>
+			<p>Edatum is the Annual Technical Symposium of
+				Pragati Engineering College Kakinada and
+				is one of  the largest of its kind in India.
+			</p>
+		</div>
+		<div class="linkssssaas">
+			<ul>
+				<li>  Gallery  <span class="spaansad"> | </span>  </li>
+				<li> About     <span class="spaansad"> | </span></li>
+				<li> Pragati   <span class="spaansad"> | </span> </li>
+				<li>  Events  </li>
+			</ul>
+			<div class="newsletter">
+				<input type="email" placeholder="abc@gmail.com" id="myInput" value="" class="inputemail" required>
+				<button onclick="getValue()">NewsLetter</button>
+			</div>
+			<script>
+				function getValue(){
+					
+					var inputField = document.getElementById("myInput");
+
+					// Get the value from the input field
+					var email = inputField.value;
+					/* if(value== 0 ){
+						alert("Please enter the Email");
+					}
+					else{
+						alert();
+					} */
+					// Display the value in an alert
+					var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+					// Check if the entered value matches the email pattern
+					if (emailPattern.test(email)) {
+						alert(email + " Successfully Registered ");
+					} else {
+						alert("Please enter a valid email address.");
+					}
+					
+				}
+			</script>
+		</div>
+	</footer>
+	<div class="footer2">
+		<h4>© 2024 Copyright Engineer | Designed by Saketh Phaneendra & Team.</h4>
+	</div>
+</body>
+</html>
