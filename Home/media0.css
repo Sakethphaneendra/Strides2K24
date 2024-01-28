@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1124px) {
+    .heroIMG{
+        width: 800px;
+        left: -20%;
+    }
+    .Edatum{
+        width: 400px;
+        margin-left: -1.5%;
+        margin-bottom: -2%;
+    }
+    .EdatumInfo{
+       
+        font-size: 20px;
+        line-height: 130%;
+        margin: 5% 0; 
+    }
+    .regi button{
+    
+        width: 120px;
+        height: 60px;
+        font-size: 18px;
+        margin-right: 5%;
+    }
+    .regi a{
+        padding: 20px 10px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .heroIMG{
+        width: 00px;
+        left: -20%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+}

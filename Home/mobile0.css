@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .hero{
+         display:grid;
+        background-color: black;
+    }
+    .heroTEXT{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background:rgb(0, 0, 0);
+        
+      }
+      
+   
+    
+}
